@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-12T17:44:29.436Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="Jy0RsPNMV4affbSgVfN5" version="12.9.11" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-12T19:25:45.025Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="kK0CHl12RlRmw8NkaV3J" version="12.9.11" type="github">
   <diagram id="ya9JxQTmI9gUbMEc43uu" name="Page-1">
     <mxGraphModel dx="2493" dy="1848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="LUaGuVtECoRtNskbtan6-10" value="&amp;lt;container&amp;gt;&lt;br&gt;&lt;b&gt;Mobile&lt;/b&gt; &lt;b&gt;Application&lt;/b&gt;&lt;br&gt;(Corona SDK, Flutter)&lt;br&gt;&lt;br&gt;&lt;br&gt;Enable cross platform customer for Online Shipping." style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#54C0FF;" parent="1" vertex="1">
           <mxGeometry x="-400" y="30" width="170" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-11" value="&amp;lt;container&amp;gt;&lt;br&gt;&lt;b&gt;Database&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Database for customer information (e.g. account details, address, order history, preferences etc.), payments methods&lt;br&gt;&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#CDA2BE;" parent="1" vertex="1">
+        <mxCell id="LUaGuVtECoRtNskbtan6-11" value="&amp;lt;databases&amp;gt;&lt;br&gt;&lt;b&gt;Database&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Database for customer information (e.g. account details, address, order history, preferences etc.), payments methods&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#CDA2BE;" parent="1" vertex="1">
           <mxGeometry y="400" width="210" height="190" as="geometry" />
         </mxCell>
         <mxCell id="LUaGuVtECoRtNskbtan6-13" value="&amp;lt;container&amp;gt;&lt;br&gt;&lt;b&gt;API&lt;/b&gt; &lt;b&gt;Application&lt;/b&gt;&lt;br&gt;(&lt;b&gt;Microservices&lt;/b&gt;, &lt;b&gt;MVC&lt;/b&gt;)&lt;br&gt;&lt;br&gt;&lt;br&gt;Provides Online Shipping functionality via &lt;b&gt;JSON&lt;/b&gt;/&lt;b&gt;HTTPS&lt;/b&gt; Services." style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CDA2BE;" parent="1" vertex="1">
@@ -85,54 +85,13 @@
         <mxCell id="LUaGuVtECoRtNskbtan6-23" value="&amp;lt;boundary&amp;gt;&lt;br&gt;Internet/Web based System." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-210" y="10" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-29" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.012;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="LUaGuVtECoRtNskbtan6-1" target="LUaGuVtECoRtNskbtan6-8" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-680" y="610" as="sourcePoint" />
-            <mxPoint x="-630" y="560" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="LUaGuVtECoRtNskbtan6-36" value="&lt;b style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;Uses&lt;br&gt;[SSL/HTTPS Connection]&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-620" y="280" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-30" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="LUaGuVtECoRtNskbtan6-9" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-640" y="440" as="sourcePoint" />
-            <mxPoint x="-570" y="400" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-31" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="LUaGuVtECoRtNskbtan6-10" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-630" y="420" as="sourcePoint" />
-            <mxPoint x="-410" y="130" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-36" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;b style=&quot;font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;[SSL/HTTPS Connection]&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-620" y="290" width="140" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-37" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="LUaGuVtECoRtNskbtan6-13" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-230" y="125" as="sourcePoint" />
-            <mxPoint x="-180" y="75" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-39" value="&lt;b&gt;[JSON/HTTPS]&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" parent="LUaGuVtECoRtNskbtan6-37" vertex="1" connectable="0">
-          <mxGeometry x="-0.2166" relative="1" as="geometry">
-            <mxPoint x="20.1" y="5.459999999999994" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-38" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="LUaGuVtECoRtNskbtan6-9" target="LUaGuVtECoRtNskbtan6-13" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-220" y="410" as="sourcePoint" />
-            <mxPoint x="-170" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-40" value="&lt;b&gt;[JSON/HTTPS]&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" parent="1" vertex="1" connectable="0">
+        <mxCell id="LUaGuVtECoRtNskbtan6-40" value="&lt;b&gt;Uses&lt;br&gt;[JSON/HTTPS]&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-149.99977451910263" y="320.0035272784561" as="geometry">
             <mxPoint x="30.1" y="-14.540000000000006" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-41" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;b style=&quot;font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;[SSL/HTTPS Connection]&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-620" y="400" width="140" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-45" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;b style=&quot;font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;[SSL/HTTPS Connection]&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-620" y="500" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LUaGuVtECoRtNskbtan6-46" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="LUaGuVtECoRtNskbtan6-13" target="LUaGuVtECoRtNskbtan6-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -164,13 +123,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LUaGuVtECoRtNskbtan6-51" value="&lt;b&gt;REST Services [HTTPS]&lt;br&gt;Order and Shipping &lt;br&gt;information.&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="290" y="195" width="150" height="50" as="geometry" />
+          <mxGeometry x="290" y="210" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LUaGuVtECoRtNskbtan6-52" value="&lt;b&gt;EMAIL Services [SMTP]&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="290" y="80" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LUaGuVtECoRtNskbtan6-53" value="&lt;b&gt;REST Services [HTTPS]&lt;br&gt;Payment information.&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="230" y="440" width="150" height="30" as="geometry" />
+          <mxGeometry x="230" y="430" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LUaGuVtECoRtNskbtan6-55" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;entryX=0.938;entryY=0.295;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="LUaGuVtECoRtNskbtan6-2" target="LUaGuVtECoRtNskbtan6-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -186,15 +145,54 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-57" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="LUaGuVtECoRtNskbtan6-8" target="LUaGuVtECoRtNskbtan6-9" edge="1">
+        <mxCell id="7BZWns0385hyJrf9eFDe-2" value="" style="endArrow=classic;html=1;exitX=1.019;exitY=0.411;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-350" y="520" as="sourcePoint" />
-            <mxPoint x="-300" y="470" as="targetPoint" />
+            <mxPoint x="-636.96" y="378.09000000000015" as="sourcePoint" />
+            <mxPoint x="-400" y="157.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-58" value="&lt;b&gt;DELIVERS to&lt;br&gt;Customer WEB Browser&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LUaGuVtECoRtNskbtan6-57" vertex="1" connectable="0">
-          <mxGeometry x="0.3167" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="7BZWns0385hyJrf9eFDe-4" value="" style="endArrow=classic;html=1;exitX=1.019;exitY=0.637;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.006;entryY=0.653;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LUaGuVtECoRtNskbtan6-1" target="LUaGuVtECoRtNskbtan6-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-630" y="440" as="sourcePoint" />
+            <mxPoint x="-580" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7BZWns0385hyJrf9eFDe-5" value="&lt;b style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;Uses&lt;br&gt;[SSL/HTTPS Connection]&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="390" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7BZWns0385hyJrf9eFDe-8" value="&lt;b style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;Uses&lt;br&gt;[SSL/HTTPS Connection]&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="570" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7BZWns0385hyJrf9eFDe-9" value="" style="endArrow=classic;html=1;exitX=1.013;exitY=0.842;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LUaGuVtECoRtNskbtan6-1" target="LUaGuVtECoRtNskbtan6-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-710" y="520" as="sourcePoint" />
+            <mxPoint x="-660" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7BZWns0385hyJrf9eFDe-10" value="" style="endArrow=classic;html=1;entryX=0.565;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="LUaGuVtECoRtNskbtan6-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-304" y="597" as="sourcePoint" />
+            <mxPoint x="-290" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7BZWns0385hyJrf9eFDe-11" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;b style=&quot;font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;DELIVERS to&lt;br&gt;Customer WEB Browser&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="535" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7BZWns0385hyJrf9eFDe-12" value="" style="endArrow=classic;html=1;exitX=1.006;exitY=0.553;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="LUaGuVtECoRtNskbtan6-9" target="LUaGuVtECoRtNskbtan6-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-220" y="400" as="sourcePoint" />
+            <mxPoint x="-170" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7BZWns0385hyJrf9eFDe-13" value="" style="endArrow=classic;html=1;exitX=0.994;exitY=0.459;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LUaGuVtECoRtNskbtan6-10" target="LUaGuVtECoRtNskbtan6-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="160" as="sourcePoint" />
+            <mxPoint x="-130" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7BZWns0385hyJrf9eFDe-14" value="&lt;b&gt;Uses&lt;br&gt;[JSON/HTTPS]&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-139.99977451910263" y="130.0035272784561" as="geometry">
+            <mxPoint x="30.1" y="-14.540000000000006" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
