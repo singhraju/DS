@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-12T17:42:50.639Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="Q0PavZafuT9UqJ63ZqQ2" version="12.9.11" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-12T17:44:29.436Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="Jy0RsPNMV4affbSgVfN5" version="12.9.11" type="github">
   <diagram id="ya9JxQTmI9gUbMEc43uu" name="Page-1">
     <mxGraphModel dx="2493" dy="1848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,28 +7,28 @@
         <mxCell id="LUaGuVtECoRtNskbtan6-1" value="&lt;b&gt;Customer&lt;/b&gt;&lt;div&gt;&amp;lt;Person&amp;gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;A customer of the Online&amp;nbsp;&lt;/div&gt;&lt;div&gt;Shopping Application.&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;fillColor=#DAE8FC;strokeColor=#6C8EBF;shape=mxgraph.c4.person;align=center;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];" parent="1" vertex="1">
           <mxGeometry x="-800" y="300" width="160" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-2" value="&amp;lt;externam_system&amp;gt;&lt;br&gt;EMAIL&lt;br&gt;&lt;br&gt;&lt;br&gt;Email notification system.." style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#A680B8;" parent="1" vertex="1">
+        <mxCell id="LUaGuVtECoRtNskbtan6-2" value="&amp;lt;externam_system&amp;gt;&lt;br&gt;&lt;b&gt;EMAIL&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Email notification &lt;br&gt;system." style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#A680B8;" parent="1" vertex="1">
           <mxGeometry x="510" y="30" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-5" value="&amp;lt;externam_system&amp;gt;&lt;br&gt;DELIVERY&lt;br&gt;&lt;br&gt;&lt;br&gt;Shipping and Handling Delivery System." style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#A680B8;" parent="1" vertex="1">
+        <mxCell id="LUaGuVtECoRtNskbtan6-5" value="&amp;lt;externam_system&amp;gt;&lt;br&gt;&lt;b&gt;DELIVERY&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Shipping and Handling Delivery System." style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#A680B8;" parent="1" vertex="1">
           <mxGeometry x="510" y="270" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-6" value="&amp;lt;externam_system&amp;gt;&lt;br&gt;PAYMENT&lt;br&gt;&lt;br&gt;&lt;br&gt;Payment processing systems." style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#A680B8;" parent="1" vertex="1">
+        <mxCell id="LUaGuVtECoRtNskbtan6-6" value="&amp;lt;externam_system&amp;gt;&lt;br&gt;&lt;b&gt;PAYMENT&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Payment processing systems." style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#A680B8;" parent="1" vertex="1">
           <mxGeometry x="510" y="500" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-8" value="&amp;lt;container&amp;gt;&lt;br&gt;Web Application&lt;br&gt;(MVC)&lt;br&gt;&lt;br&gt;&lt;br&gt;Caters static contents, single page shopping application." style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#54C0FF;" parent="1" vertex="1">
+        <mxCell id="LUaGuVtECoRtNskbtan6-8" value="&amp;lt;container&amp;gt;&lt;br&gt;&lt;b&gt;Web&lt;/b&gt; &lt;b&gt;Application&lt;/b&gt;&lt;br&gt;(&lt;b&gt;MVC&lt;/b&gt;)&lt;br&gt;&lt;br&gt;&lt;br&gt;Caters static contents, single page shopping application." style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#54C0FF;" parent="1" vertex="1">
           <mxGeometry x="-400" y="600" width="170" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-9" value="&amp;lt;container&amp;gt;&lt;br&gt;Single-Page Application.&lt;br&gt;(MVC)&lt;br&gt;&lt;br&gt;&lt;br&gt;Provides all Online Shopping functionality." style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#54C0FF;" parent="1" vertex="1">
+        <mxCell id="LUaGuVtECoRtNskbtan6-9" value="&amp;lt;container&amp;gt;&lt;br&gt;&lt;b&gt;Single&lt;/b&gt;-&lt;b&gt;Page&lt;/b&gt; &lt;b&gt;Application&lt;/b&gt;.&lt;br&gt;(&lt;b&gt;MVC&lt;/b&gt;)&lt;br&gt;&lt;br&gt;&lt;br&gt;Provides all Online Shopping functionality." style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#54C0FF;" parent="1" vertex="1">
           <mxGeometry x="-400" y="310" width="170" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-10" value="&amp;lt;container&amp;gt;&lt;br&gt;Mobile Application&lt;br&gt;(Corona SDK, Flutter)&lt;br&gt;&lt;br&gt;&lt;br&gt;Enable cross platform customer for Online Shipping." style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#54C0FF;" parent="1" vertex="1">
+        <mxCell id="LUaGuVtECoRtNskbtan6-10" value="&amp;lt;container&amp;gt;&lt;br&gt;&lt;b&gt;Mobile&lt;/b&gt; &lt;b&gt;Application&lt;/b&gt;&lt;br&gt;(Corona SDK, Flutter)&lt;br&gt;&lt;br&gt;&lt;br&gt;Enable cross platform customer for Online Shipping." style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#54C0FF;" parent="1" vertex="1">
           <mxGeometry x="-400" y="30" width="170" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-11" value="&amp;lt;container&amp;gt;&lt;br&gt;Database&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Database for customer information (e.g. account details, address, order history, preferences etc.), payments methods&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#CDA2BE;" parent="1" vertex="1">
+        <mxCell id="LUaGuVtECoRtNskbtan6-11" value="&amp;lt;container&amp;gt;&lt;br&gt;&lt;b&gt;Database&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Database for customer information (e.g. account details, address, order history, preferences etc.), payments methods&lt;br&gt;&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#CDA2BE;" parent="1" vertex="1">
           <mxGeometry y="400" width="210" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="LUaGuVtECoRtNskbtan6-13" value="&amp;lt;container&amp;gt;&lt;br&gt;API Application&lt;br&gt;(Microservices, MVC)&lt;br&gt;&lt;br&gt;&lt;br&gt;Provides Online Shipping functionality via JSON/HTTPS Services." style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CDA2BE;" parent="1" vertex="1">
+        <mxCell id="LUaGuVtECoRtNskbtan6-13" value="&amp;lt;container&amp;gt;&lt;br&gt;&lt;b&gt;API&lt;/b&gt; &lt;b&gt;Application&lt;/b&gt;&lt;br&gt;(&lt;b&gt;Microservices&lt;/b&gt;, &lt;b&gt;MVC&lt;/b&gt;)&lt;br&gt;&lt;br&gt;&lt;br&gt;Provides Online Shipping functionality via &lt;b&gt;JSON&lt;/b&gt;/&lt;b&gt;HTTPS&lt;/b&gt; Services." style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CDA2BE;" parent="1" vertex="1">
           <mxGeometry y="90" width="170" height="170" as="geometry" />
         </mxCell>
         <mxCell id="LUaGuVtECoRtNskbtan6-14" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
